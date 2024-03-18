@@ -7,6 +7,13 @@
     <link rel="stylesheet" id="bootswatch" />
     <link rel="stylesheet" id="icon" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
@@ -152,7 +159,7 @@
                     <b>Location: </b> <span>12 Mir Ave</span>
                   </li>
                   <li class="list-group-item d-flex justify-content-between">
-                    <b>Specialization: </b><span>STEM</span>
+                    <b>Specialization: </b><span>Mathematics</span>
                   </li>
                 </ul>
               </div>
@@ -179,6 +186,219 @@
                     <b>Major: </b><span>Computer Science</span>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  -->
+
+        <section id="skills">
+          <h2 class="text-center">Skills</h2>
+          <h3>Frontend</h3>
+          <div class="row">
+            <div class="col-6">
+              <!--  -->
+              <div class="accordion" id="frontendAccordion">
+                <!--  -->
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseJs"
+                    >
+                      JavaScript/Typescript
+                      <i
+                        class="fa-brands fa-js btn btn-outline-primary ms-3"
+                      ></i>
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseJs"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#frontendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Prototyping</li>
+                        <li class="list-group-item">Document Object Model</li>
+                        <li class="list-group-item">Asynchronous operations</li>
+                        <li class="list-group-item">The Event Loop</li>
+                        <li class="list-group-item">Strict Typing</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseHtmlCss"
+                    >
+                      HTML/CSS/Bootstrap
+                      <i
+                        class="fa-solid fa-file-code btn btn-outline-primary ms-3"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseHtmlCss"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#frontendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Box Model</li>
+                        <li class="list-group-item">Advanced Selectors</li>
+                        <li class="list-group-item">Display Flex</li>
+                        <li class="list-group-item">Display Grid</li>
+                        <li class="list-group-item">Media Query</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseReact"
+                    >
+                      React/React's Eco-system
+                      <i
+                        class="fa-brands fa-react btn btn-outline-primary ms-2"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseReact"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#frontendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Virtual DOM</li>
+                        <li class="list-group-item">Component Life Cycle</li>
+                        <li class="list-group-item">Props/Props Drilling</li>
+                        <li class="list-group-item">
+                          Built-in Hooks/Custom hooks
+                        </li>
+                        <li class="list-group-item">Reconciliation</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <!--  -->
+              <div class="accordion" id="backendAccordion">
+                <!--  -->
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNetwork"
+                    >
+                      Basis of Computer Networking
+                      <i
+                        class="fa-solid fa-network-wired btn btn-outline-primary ms-3"
+                      ></i>
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseNetwork"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#backendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">OSI Model</li>
+                        <li class="list-group-item">IP protocol set</li>
+                        <li class="list-group-item">Network Devices</li>
+                        <li class="list-group-item">Network Security</li>
+                        <li class="list-group-item">Network Troubleshooting</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseDBMS"
+                    >
+                      Database Management System
+                      <i
+                        class="fa-solid fa-database btn btn-outline-primary ms-3"
+                      ></i>
+                    </button>
+                  </h2>
+
+                  <div
+                    id="collapseDBMS"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#backendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">EER Model</li>
+                        <li class="list-group-item">
+                          Relational Schema/Relational Schema Constraints
+                        </li>
+                        <li class="list-group-item">Normalization</li>
+                        <li class="list-group-item">
+                          Relational Algebra And SQL
+                        </li>
+                        <li class="list-group-item">
+                          Indexing: Single-level/Static Multi-level/B,B+ Trees
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNode"
+                    >
+                      Node/Express
+                      <i
+                        class="fa-brands fa-node-js btn btn-outline-primary ms-3"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseNode"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#backendAccordion"
+                  >
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Modules and CommonJS</li>
+                        <li class="list-group-item">Streams and Buffers</li>
+                        <li class="list-group-item">File System Operations</li>
+                        <li class="list-group-item">
+                          Web servers and HTTP modules
+                        </li>
+                        <li class="list-group-item">ExpressJS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
