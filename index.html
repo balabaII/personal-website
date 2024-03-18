@@ -6,6 +6,7 @@
     <title>Erbol Personal Website</title>
     <link rel="stylesheet" id="bootswatch" />
     <link rel="stylesheet" id="icon" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -18,21 +19,13 @@
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#bio">Bio</a>
+                  <a class="nav-link active" href="#bio">Bio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#education">Education</a>
@@ -45,7 +38,97 @@
           </div>
         </nav>
       </header>
-      <h1>Hello, my name is Erbol</h1>  
+      <main>
+        <section id="bio ">
+          <div class="row">
+            <div class="col-5">
+              <img src="./img/me5.jpg" alt="a handsome guy" id="bio_img" />
+            </div>
+            <div class="col-7">
+              <ul
+                class="nav nav-tabs d-flex justify-content-around"
+                id="myTab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                  >
+                    About me
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                  >
+                    My homeland
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                  >
+                    My current life
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane">
+                  <br />
+                  My name full name is Kulantaev Erbol Altynbekovich.
+                  <br />
+                  <br />
+                  I am 19 years old student from Middle Asia. Interested in IT,
+                  hope to become an awesome specialist one day.
+                  <br />
+                  <br />
+                  The biggest dream of mine is probably to solve a hard question
+                  from leetcode
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane">
+                  <br />
+                  I was born in Kyrgyzstan, in its capital - Bishkek.
+                  <br /><br />
+                  It is pretty small county with overall population over 7
+                  million people. The most part of it are mountains and forests.
+                  I met lots of tourists coming there to see our natural
+                  beauties.
+                  <br />
+                  <br />
+                  <b>Fun Fact:</b> Our country had a close relationship with
+                  Russia for a long period of time, as most of the countries
+                  from that region, such as Uzbekistan, Kazakhstan, Tajikistan,
+                  so in all those countries people are fluent in Russian
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane">
+                  <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia explicabo unde quos quis! Minima alias sed at labore
+                  voluptatibus aspernatur illum, perferendis repellat quam nemo.
+                  Consequatur fugiat voluptatibus tenetur possimus!
+                  <br /><br />Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit. Ullam fuga deserunt minus maxime molestiae
+                  neque similique quas eligendi. Cumque incidunt dignissimos
+                  numquam repellat accusantium quis, labore quasi doloribus
+                  quibusdam. Accusamus.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
